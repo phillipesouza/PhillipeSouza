@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<section class="awe-section">
+	<div class="container">
+		<div class="page-title pb-40">
+			<h2 class="page-title__title">{{ page.title }}</h2>
+			<p class="page-title__text">
+				{% for category in include.post.categories %}		
+					{{ include.post.date | date: "%d/%b/%y" }} | <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>		
+				{% endfor %}
+			</p>
+			<div class="page-title__divider"></div>
+		</div>		
+	</div>
+</section>
+<section class="awe-section bg-gray">
+	<div class="container">
+		{{ content }}
+
+		<br><br>
+
+		{% if site.disqus_shortname and page.comments %}
+			<div id="disqus_thread"></div>
+			<script>
+					var disqus_shortname = '{{ site.disqus_shortname }}';
+					var disqus_config = function () {
+							this.page.url = "{{ page.url | prepend: site.url }}";
+							this.page.identifier = "{{ page.id }}";
+					};
+
+					(function() {  // DON'T EDIT BELOW THIS LINE
+							var d = document, s = d.createElement('script');
+
+							s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+							s.setAttribute('data-timestamp', +new Date());
+							(d.head || d.body).appendChild(s);
+					})();
+			</script>
+			<noscript>Por favor habilite o javascript para comentar <a href="https://disqus.com/?ref_noscript" rel="nofollow"></a></noscript>
+		{% endif %}
+		</div>
+</section>

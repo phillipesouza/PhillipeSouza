@@ -1,0 +1,22 @@
+{% for post in site.categories.Blog %}
+	<div class="grid-item">
+		<div class="grid-item__inner">
+			<div class="grid-item__content-wrapper">
+				
+				<!-- post -->
+				<div class="post">
+					<div class="post__media"><a href="{% include relative-src.html src=post.url %}"><img src="{{ post.miniature }}" alt=""/></a></div>
+					<div class="post__body">
+						<div class="post__meta"><span class="date">{{ include.post.date | date: "%d/%b/%y" }}</span><span class="author"><a href="#">{{ post.category }}</a></span></div>
+						<h2 class="post__title"><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h2>
+						<p class="post__text">{{ post.excerpt }}</p>
+						<a class="md-btn md-btn--outline-primary" href="{% include relative-src.html src=post.url %}">Leia +
+						</a>
+					</div>
+				</div><!-- End / post -->
+				
+			</div>
+		</div>
+	</div>
+{% endfor %}
+
