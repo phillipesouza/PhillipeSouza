@@ -17,6 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Categoria", name: "categories", widget: "select", options: ["Blog", "Works"]}
       - {label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
       - {label: "Miniatura", name: "miniature", widget: "image", required: false, tagname: ""}
+      - {label: "Comentários", name: "comments", widget: "boolean", default: true}
       - {label: "Corpo do Texto", name: "body", widget: "markdown"}
     meta:
       - {label: "SEO Descrição", name: "description", widget: "text"}

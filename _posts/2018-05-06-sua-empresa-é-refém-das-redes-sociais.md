@@ -3,6 +3,8 @@ title: Sua empresa é refém das Redes Sociais?
 categories: Blog
 date: '2018-05-06 05:33pm'
 miniature: /images/site-x-face-mini.jpg
+comments: true
+
 ---
 Eu poderia passar horas falando de como as Redes sociais cresceram ou do impacto que elas tem na propaganda atual e no relacionamento com o cliente, mas eu acredito que falar de algo que outros tantos já falaram seria um pouco redundante.
 
