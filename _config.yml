@@ -115,7 +115,3 @@ _comments:
 
 compress_html:
   comments: ["<!-- ", " -->"]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: true
