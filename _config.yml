@@ -113,5 +113,5 @@ _comments:
   description: Text shown when sharing on social media
   blurb: Short bio or description of this person
 
-compress_html:
-  comments: ["<!-- ", " -->"]
+#compress_html:
+#  comments: ["<!-- ", " -->"]
