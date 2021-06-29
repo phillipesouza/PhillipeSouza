@@ -2,7 +2,7 @@
 # Site
 
 title: Phillipe Souza
-url: "https://phillipesouza.com.br"
+url: "https://phillipesouza.github.io/"
 baseurl: 
 #google_analytics_key: UA-43029813-2
 google_maps_javascript_api_key:
@@ -13,7 +13,7 @@ logo: /siteicon.png
 description: Freelancer em Marketing digital e desenvolvimento Web. Meu objetivo é ajudar você ampliar a presença digital da sua empresa.
 author: 
   name: Phillipe Souza
-  email: contato@phillipesouza.com.br
+  email: ph.ll.pesouza@gmail.com
   twitter: # twitter username without the @ symbol
 social:
   name: 
