@@ -2,7 +2,7 @@
 title: Sua empresa é refém das Redes Sociais?
 categories: Blog
 date: '2018-05-06 05:33pm'
-miniature: /images/site-x-face-mini.jpg
+miniature: https://raw.githubusercontent.com/phillipesouza/PhillipeSouza/master/images/site-x-face-mini.jpg
 comments: true
 
 ---
@@ -10,7 +10,7 @@ Eu poderia passar horas falando de como as Redes sociais cresceram ou do impacto
 
 O que quero realmente perguntar é se a sua empresa ou agência de propaganda (sim, elas também) são reféns das Redes Sociais. Como assim?
 
-![Sua empresa é refém das Redes Sociais? - Foto por Thought Catalog - Unsplash](/images/site-x-face.jpg)
+![Sua empresa é refém das Redes Sociais? - Foto por Thought Catalog - Unsplash](https://raw.githubusercontent.com/phillipesouza/PhillipeSouza/master/images/site-x-face.jpg)
 
 Nos últimos tempos tenho visto muitas empresas, desde pequenas até as grandes, abandonarem seus sites para ter como canal principal a sua página no Facebook. A princípio pode ter parecido uma jogada de mestre, uma página onde existem milhões de pessoas conectadas de graça. 
 
